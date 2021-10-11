@@ -6,17 +6,17 @@
 
 - En mi caso tengo activado ya el servicio `DNS`, porque al promover el AC a controlador de dominio se nos activa el servicio `DNS`.
 
-- Pero si no lo tuvieramos simplemente agregamos roles y lo configuramos con el asistente.
+- Pero si no lo tuviéramos simplemente agregamos roles y lo configuramos con el asistente.
 
 ![](img/001.png)
 
 ![](img/002.png)
 
-### 1. Crear una zona de busqueda directa
+### 1. Crear una zona de búsqueda directa
 
 ![](img/003.png)
 
-- Empezamos la creacion de la nueva zona con ayuda del asistente.
+- Empezamos la creación de la nueva zona con ayuda del asistente.
 
 - Elegimos zona principal.
 
@@ -36,11 +36,11 @@
 
 ![](img/009.png)
 
-### 2. Crear una zona de busqueda inversa
+### 2. Crear una zona de búsqueda inversa
 
 ![](img/010.png)
 
-- Empezamos la creacion de la nueva zona con ayuda del asistente.
+- Empezamos la creación de la nueva zona con ayuda del asistente.
 
 ![](img/011.png)
 
@@ -68,15 +68,15 @@
 
 El funcionamiento de esto es el siguiente:
 
-- Los reenviadores de `DNS publico` serviran de puerta para que el servidor pueda pedir respuestas a preguntas que no esten dentro de su red, por ejemplo, si el cliente hace alguna operacion y necesita respuesta fuera de la red que conforman `servidor-cliente` utilizara el servidor y este utilizara los reenviadores.
+- Los reenviadores de `DNS publico` servirán de puerta para que el servidor pueda pedir respuestas a preguntas que no estén dentro de su red, por ejemplo, si el cliente hace alguna operación y necesita respuesta fuera de la red que conforman `servidor-cliente` utilizara el servidor y este utilizara los reenviadores.
 
-- Si hacemos alguna operacion `nslookup` con el cliente hacia afuera podemos comprobar los reenviadores.
+- Si hacemos alguna operación `nslookup` con el cliente hacia afuera podemos comprobar los reenviadores.
 
-![](img/052.png)  
+![](img/055.png)  
 
 ### 4. Configurar el servidor DNS Cache
 
-- Para ello es necesario la configuracion estatica tanto de server como de cliente, en la que el cliente tendra como DNS la ip del server.
+- Para ello es necesario la configuración estática tanto de server como de cliente, en la que el cliente tendrá como DNS la ip del server.
 
 - Servidor:
 
@@ -92,13 +92,13 @@ El funcionamiento de esto es el siguiente:
 
 ![](img/021.png)
 
-- Comprobacion del funcionamiento DNS Cache en servidor:
+- Comprobación del funcionamiento DNS Cache en servidor accediendo a internet:
 
 ![](img/026.png)
 
 ![](img/027.png)
 
-- Comprobacion del funcionamiento DNS Cache en cliente:
+- Comprobación del funcionamiento DNS Cache en cliente accediendo a internet:
 
 ![](img/028.png)
 
@@ -129,7 +129,7 @@ Cada vez que creamos un Host(A) creamos los `registros PTR` que aparecen en la `
 
 ![](img/036.png)
 
-- Crear una subzona denominada servicios (dominio nuevo) y agregar a ésta un servidor `ftp` (asociado a la misma IP del servidor), una `impresora` nueva (con una IP fija) y el equipo del `administrador` del sistema (también con IP fija).
+- Crear una subzona denominada servicios (dominio nuevo) y agregar a esta un servidor `ftp` (asociado a la misma IP del servidor), una `impresora` nueva (con una IP fija) y el equipo del `administrador` del sistema (también con IP fija).
 
 ![](img/037.png)
 
@@ -159,7 +159,7 @@ Cada vez que creamos un Host(A) creamos los `registros PTR` que aparecen en la `
 
 ### 7. Comprobar que se resuelven los nombres desde el cliente.
 
-Primero comprobamos que el cliente esta en el dominio y aparece en la zona de busqueda del servidor como registro A.
+Primero comprobamos que el cliente está en el dominio y aparece en la zona de búsqueda del servidor como registro A.
 
 ![](img/043.png)
 
