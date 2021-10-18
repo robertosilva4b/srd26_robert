@@ -1,4 +1,4 @@
-`# Servidor DNS Linux bind9
+# Servidor DNS Linux bind9
 
 **PLANTEAMIENTO:**
 
