@@ -21,7 +21,7 @@ Realizar la instalación y configuración de un servidor DNS bind9 en una máqui
 
 - Indicar a Linux que el servidor DNS es él mismo `(/etc/resolv.conf)`
 
-- **ACLARACIÓN:** Aunque editáramos este archivo o incluso el archivo real, ya que este se trata de un enlace simbólico no se guardaba la configuración, al final tuve que cambiar un archivo que nos definía la configuración de red estáticamente en la máquina: `/etc/netplan/01-network-manager-all.yanl`.
+- **ACLARACIÓN:** Aunque editáramos este archivo o incluso el archivo real, ya que este se trata de un enlace simbólico no se guardaria la configuración por algun problema que desconozco, al final tuve que cambiar un archivo que nos definía la configuración de red estáticamente en la máquina: `/etc/netplan/01-network-manager-all.yanl`.
 
 ![](img/007.png)
 
@@ -35,7 +35,7 @@ Realizar la instalación y configuración de un servidor DNS bind9 en una máqui
 
 ### Configurar servidor como caché DNS
 
-- Tenemos que añadir `reenviadores` al archivo de configuración al que previamente haremos una copia de seguridad.
+- Tenemos que añadir `reenviadores` al archivo de configuración al que previamente hacemos una copia de seguridad.
 
 ![](img/009.png)
 
@@ -86,6 +86,8 @@ Realizar la instalación y configuración de un servidor DNS bind9 en una máqui
 ![](img/019.png)
 
 - Comprobamos que el archivo está configurado correctamente.
+
+![](img/020.png)
 
 ---
 
