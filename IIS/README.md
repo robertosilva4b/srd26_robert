@@ -2,7 +2,7 @@
 
 #### PLANTEAMIENTO
 
-Intalaremos el servicio IIS y configuraremos diversos sitios webs planteados en los diferentes PDFs.
+Instalaremos el servicio IIS y configuraremos diversos sitios webs planteados en los diferentes PDFs.
 
 | MV  | Rol  | IP  |
 |---|---|---|
@@ -39,13 +39,13 @@ Intalaremos el servicio IIS y configuraremos diversos sitios webs planteados en 
 
 ![](img/010.png)
 
-#### Entrar en cliente Windows y acceder, desde un navegador web a traves de la IP del servidor
+#### Entrar en cliente Windows y acceder, desde un navegador web a través de la IP del servidor
 
 ![](img/019.png)
 
 #### Acceder ahora desde MV2 a la misma página mediante el nombre principal del dominio y desde cualquier otro alias que haya sido definido en la configuración DNS.
 
-- Tenemos que definir que nuestro sitio web tenga como enlance el nombre principal del dominio.
+- Tenemos que definir que nuestro sitio web tenga como enlace el nombre principal del dominio.
 
 ![](img/012.png)
 
@@ -63,7 +63,7 @@ Intalaremos el servicio IIS y configuraremos diversos sitios webs planteados en 
 
 #### Añade un alias en el servicio DNS que relacione el sitio www con el dominio principal
 
-- Creamos la relacion www en el servicio DNS.
+- Creamos la relación www en el servicio DNS.
 
 ![](img/011.png)
 
@@ -79,7 +79,7 @@ En el cliente:
 
 ![](img/025.png)
 
-- Comprobaremos la nueva pagina HTML.
+- Comprobaremos la nueva página HTML.
 
 En el servidor:
 
@@ -133,7 +133,7 @@ En el cliente:
 
 ![](img/052.png)
 
-- Creamos una carpeta donde estara nuestro index junto a otras carpetas e imagenes.
+- Creamos una carpeta donde estará nuestro index junto a otras carpetas e imágenes.
 
 ![](img/047.png)
 
@@ -146,3 +146,46 @@ En el cliente:
 ![](img/054.png)
 
 ## Práctica de IIS Windows 2016 Server III
+
+ Crearemos un directorio virtual que vincularemos a la página anterior de servicios.
+
+ - Creamos un directorio fuera del directorio de la página, ahí dentro definimos las páginas HTML, carpetas e imágenes que consideremos.
+
+![](img/057.png)
+> En verde está marcado el directorio de la página creada en la práctica anterior y en rojo el directorio que usaremos virtualmente.
+
+![](img/056.png)
+
+![](img/059.png)
+
+![](img/060.png)
+
+- Definimos que podamos acceder tanto desde servicios como de departamentos.
+
+![](img/061.png)
+
+![](img/062.png)
+
+**En el servidor:**
+
+![](img/064.png)
+
+![](img/065.png)
+
+![](img/066.png)
+
+Desde servicios también nos conecta:
+
+![](img/067.png)
+
+**En el cliente:**
+
+![](img/068.png)
+
+![](img/069.png)
+
+![](img/070.png)
+
+Desde servicios en el cliente:
+
+![](img/071.png)
