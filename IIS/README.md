@@ -119,4 +119,28 @@ En el cliente:
 
 ## Práctica de IIS Windows 2016 Server II
 
-![](img/035.png)
+#### Creación de sitios web independiente
+
+- Agregamos un nuevo Sitio Web.
+
+![](img/044.png)
+
+![](img/051.png)
+
+![](img/050.png)
+
+- Cambiamos los permisos.
+
+![](img/052.png)
+
+- Creamos una carpeta donde estara nuestro index junto a otras carpetas e imagenes.
+
+![](img/047.png)
+
+- Probamos el sitio web en el servidor:
+
+![](img/053.png)
+
+- En el cliente:
+
+![](img/054.png)
