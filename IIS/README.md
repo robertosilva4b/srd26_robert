@@ -99,6 +99,24 @@ En el cliente:
 
 ![](img/034.png)
 
+#### Crea un pequeño sitio web con varias páginas e imágenes organizadas en subcarpetas de wwwroot.
+
+![](img/037.png)
+
+![](img/038.png)
+
+En el servidor:
+
+![](img/039.png)
+
+![](img/040.png)
+
+En el cliente:
+
+![](img/041.png)
+
+![](img/042.png)
+
 ## Práctica de IIS Windows 2016 Server II
 
 ![](img/035.png)
