@@ -1,6 +1,6 @@
 # Informe IIS - Servidor Web avanzado - PHP, MySQL, phpMyAdmin, FTP y Drupal
 
-Vamos a realizar las instalaciones y configuraciones necesarias para obtener un Servidor Web con soporte PHP y accesos a bases de datos relacionales, acceso FTP y gestor de bases de datos. Sobre este servidor, podremos realizar instalaciones de aplicaciones integradas  desde el propio servidor o en modo remoto desde un cliente W7.
+Vamos a realizar las instalaciones y configuraciones necesarias para obtener un Servidor Web con soporte PHP y accesos a bases de datos relacionales, acceso FTP y gestor de bases de datos. Sobre este servidor, podremos realizar instalaciones de aplicaciones integradas desde el propio servidor o en modo remoto desde un cliente W7.
 
 ## Práctica de IIS Windows 2016 Server V
 
@@ -38,7 +38,7 @@ admita el fichero index.php por defecto en las carpetas y/o sitios que nos inter
 
 ![](img/011.png)
 
-- Comprobamos la instalacion correcta de PHP colocando un fichero index.php en el sitio web (www.miempresa.com) con el siguiente codigo: <?php phpinfo(); ?>
+- Comprobamos la instalación correcta de PHP colocando un fichero index.php en el sitio web (www.miempresa.com) con el siguiente código: <?php phpinfo(); ?>
 
 ![](img/012.png)
 
@@ -124,7 +124,7 @@ DNS
 ![](img/045.png)
 > Nos conectamos al FileZilla Server.
 
-- Y creamos un sitio remoto que una la carpeta principal del servidor con nuestra maquina cliente. Asi podremos pasarle los archivos que queramos.
+- Y creamos un sitio remoto que una la carpeta principal del servidor con nuestra máquina cliente. Así podremos pasarle los archivos que queramos.
 
 ![](img/047.png)
 
@@ -134,20 +134,20 @@ Comprobamos el funcionamiento de FileZilla desde un navegador.
 
 ![](img/059.png)
 
-**Comprobacion desde el Servidor:**
+**Comprobación desde el Servidor:**
 
 ![](img/049.png)
 
 ![](img/050.png)
 
-**Comprobacion desde el Cliente:**
+**Comprobación desde el Cliente:**
 
 ![](img/051.png)
 
 - Descomprimir y subir archivos Drupal a carpeta principal (www.miEmpresa.com).
 
 ![](img/048.png)
-> Una vez pasados los archivos podemos ir a www.miempresa.com y veremos la instalacion del Drupal.
+> Una vez pasados los archivos podemos ir a www.miempresa.com y veremos la instalación del Drupal.
 
 ![](img/054.png)
 
@@ -162,4 +162,13 @@ en Internet.
 
 ![](img/054.png)
 
+- Definimos la base de datos que creamos con anterioridad.
+
 ![](img/055.png)
+
+![](img/060.png)
+
+![](img/061.png)
+
+![](img/062.png)
+>Ya estaría instalado. 
