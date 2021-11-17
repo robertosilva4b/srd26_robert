@@ -31,7 +31,7 @@ Vamos a realizar las instalaciones y configuraciones necesarias para obtener un 
 ![](img/009.png)
 
 ![](img/010.png)
-> Ya estaria instalado el PHP.
+> Ya estaría instalado el PHP.
 
 - Configurar luego IIS para que
 admita el fichero index.php por defecto en las carpetas y/o sitios que nos interese.
@@ -171,4 +171,48 @@ en Internet.
 ![](img/061.png)
 
 ![](img/062.png)
->Ya estaría instalado. 
+>Ya estaría instalado.
+
+**Configuración y creación del sitio Drupal**
+
+- Cambiaremos el idioma al Español, además añadiremos la opción de poder traducir a varios idiomas.
+
+![](img/063.png)
+
+![](img/064.png)
+
+![](img/065.png)
+
+![](img/066.png)
+
+![](img/067.png)
+
+![](img/68.png)
+
+![](img/069.png)
+
+- Una vez finalizada la parte del idioma, instalaremos diferentes Temas que podríamos utilizar y configuraremos uno de ellos.
+
+![](img/070.png)
+> Antes de hacer nada verificamos cuál es el que estábamos usando de manera predeterminada.
+
+- He instalado todos esos que se ven marcados, siendo el último el que utilizaré de manera predeterminada.
+![](img/071.png)
+
+![](img/072.png)
+
+- Ahora crearemos dos páginas sencillas con su menú para probar este tipo de funciones.
+
+![](img/073.png)
+> Una primera página dentro del menú `Páginas de HTML`
+
+![](img/074.png)
+> Y una segunda dentro del menú `Páginas de Python`
+
+**Resultado final:**
+
+![](img/075.png)
+
+![](img/076.png)
+
+![](img/077.png)
