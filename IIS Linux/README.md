@@ -44,7 +44,7 @@ Realizaremos una serie de instalaciones para conseguir varios sitios webs que fu
 
 - Comprobar acceso a index.php, para ello crearemos un sitio de prueba donde incluiremos un index.
 
-- Ademas aprovechare este sitio de prueba para explicar como se crean.
+- Además aprovecharé este sitio de prueba para explicar como se crean.
 
 **Crear una carpeta en la ruta /var/www**
 
@@ -52,15 +52,15 @@ Realizaremos una serie de instalaciones para conseguir varios sitios webs que fu
 
 ![](img/012.png)
 
-**Crear archivo de configuracion en sites-available**
+**Crear archivo de configuración en sites-available**
 
-- Nos iremos a la ruta de /etc/apache2/sites-available y crearemos un archivo .conf donde definimos el nombre del servidor, la ruta de los archivos que queramos que se vean en la web (/var/www/prueba), el puerto y muchas mas cosas, el que utilizo en este caso es bastante sencillo.
+- Nos iremos a la ruta de /etc/apache2/sites-available y crearemos un archivo .conf donde definimos el nombre del servidor, la ruta de los archivos que queramos que se vean en la web (/var/www/prueba), el puerto y muchas más cosas, el que utilizo en este caso es bastante sencillo.
 
 ![](img/013.png)
 
 **Habilitar el sitio y reiniciar apache2**
 
-- Lo ultimo que queda es habilitar el archivo, lo que seria equivalente a hacer un enlace simbolico a sites-enabled y reiniciar el servicio.
+- Lo último que queda es habilitar el archivo, lo que sería equivalente a hacer un enlace simbolico a sites-enabled y reiniciar el servicio.
 
 ![](img/014.png)
 
@@ -74,7 +74,7 @@ Realizaremos una serie de instalaciones para conseguir varios sitios webs que fu
 
 ![](img/017.png)
 
-- Generamos certificado automatico dentro de una carpeta que hemos creado en la ruta de apache2.
+- Generamos certificado automático dentro de una carpeta que hemos creado en la ruta de apache2.
 
 ![](img/025.png)
 
@@ -84,7 +84,7 @@ Realizaremos una serie de instalaciones para conseguir varios sitios webs que fu
 
 ![](img/026.png)
 
-- Creamos el archivo .conf y definimos las rutas con la ubicacion del certificado
+- Creamos el archivo .conf y definimos las rutas con la ubicación del certificado
 
 ![](img/023.png)
 
@@ -98,7 +98,7 @@ Realizaremos una serie de instalaciones para conseguir varios sitios webs que fu
 
 
 ![](img/044.png)
->Creamos un .htaccess y un index.html para cada emplead@ y tambien para el sitio web en general.
+>Creamos un .htaccess y un index.html para cada emplead@ y también para el sitio web en general.
 
 **Archivos .htacces**
 
@@ -150,7 +150,7 @@ Realizaremos una serie de instalaciones para conseguir varios sitios webs que fu
 
 ![](img/054.png)
 
-- Creamos otra carpeta "phpmyadmin" y metemos todo los archivos del programa.
+- Creamos otra carpeta "phpmyadmin" y metemos todos los archivos del programa.
 
 ![](img/055.png)
 
