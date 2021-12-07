@@ -13,7 +13,7 @@ Crear un manual de instalación y configuración de un servidor FTP en una máqu
 
 #### Instalar Servicio FTP en Windows 2016 Server, a través de Agregar roles y características (IIS)
 
-- Agregamos Roles y Caracteristicas.
+- Agregamos Roles y Características.
 
 ![](img/001.png)
 
@@ -29,16 +29,16 @@ Crear un manual de instalación y configuración de un servidor FTP en una máqu
 
 #### Acceder a la creación y configuración de Sitios FTP por medio de la Administración de IIS.
 
-- Esta es la configuracion y creacion de sitios FTP.
+- Esta es la configuración y creación de sitios FTP.
 
 ![](img/006.png)
 
 #### Crear tres nuevos sitios FTP
 
 **Primer sitio FTP - Asociado a la unidad C:**
- - No debe prmitir accesos anonimos,
+ - No debe permitir accesos anónimos,
  - Sin uso de SSL
- - Sólo el usuario Administrador podrá acceder al sitio.
+ - Solo el usuario Administrador podrá acceder al sitio.
  - Modos lectura y escritura.
 
 ![](img/011.png)
@@ -49,11 +49,15 @@ Crear un manual de instalación y configuración de un servidor FTP en una máqu
 
 Examina todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y haz una descripción breve de cada una en el informe.
 
+- Las opciones son muy parecidas a los Virtual Hosts, tenemos registros de las sesiones FTP, cuantas hay conectadas en el momento, podemos configurar el certificado si lo hubiese, editar como se deben autentificar los usuarios al servicio ftp, etc..
+
 ![](img/010.png)
+
+
 
 Trata de acceder al sitio ftp desde el propio servidor a través de un navegador y un explorador de archivos.
 
-- Accedemos con el usuario Administrador que es el unico que tiene permisos.
+- Accedemos con el usuario Administrador que es el único que tiene permisos.
 
 *Navegador*
 
@@ -67,7 +71,7 @@ Trata de acceder al sitio ftp desde el propio servidor a través de un navegador
 
 ![](img/015.png)
 
-Si intentamos acceder desde otros usuario no nos dejara. El usuario "Administrador" tiene permisos de lectura y escritura.
+Si intentamos acceder desde otros usuarios no nos dejara. El usuario "Administrador" tiene permisos de lectura y escritura.
 
 ![](img/017.png)
 
@@ -97,7 +101,7 @@ Instala el software WinSCP en el cliente Windows, configura la conexión a tu si
 
 ![](img/025.png)
 
-- Elegimos la instalacion tipica.
+- Elegimos la instalación típica.
 
 ![](img/026.png)
 
@@ -105,7 +109,7 @@ Instala el software WinSCP en el cliente Windows, configura la conexión a tu si
 
 ![](img/028.png)
 
-- Configuramos la conexion a el sitio ftp del servidor.
+- Configuramos la conexión al sitio ftp del servidor.
 
 ![](img/029.png)
 
@@ -213,13 +217,13 @@ Probamos el acceso desde el servidor
 
 ![](img/059.png)
 
-Nos metemos dentro de algun archivo
+Nos metemos dentro de algún archivo
 
 ![](img/060.png)
 
 ![](img/061.png)
 
-Probamos la conexion desde el cliente usando WinSCP.
+Probamos la conexión desde el cliente usando WinSCP.
 
 ![](img/062.png)
 
@@ -239,7 +243,7 @@ Comprobamos el acceso desde el navegador del cliente.
 
 ![](img/070.png)
 
-- La manera para que podamos ofrecer varios sitios FTP simultaneos es cambiando los puertos de los mismos, porque no pueden ser iguales.
+- La manera para que podamos ofrecer varios sitios FTP simultáneos es cambiando los puertos de los mismos, porque no pueden ser iguales.
 
  - Sitio FTP Inetpub - Puerto 22
  - Sitio FTP Unidad C - Puerto 23
@@ -249,7 +253,7 @@ Comprobamos el acceso desde el navegador del cliente.
 
 ![](img/072.png)
 
-Hacemos inicio de sesion en los tres sitios FTP desde el WinSCP del cliente.
+Hacemos inicio de sesión en los tres sitios FTP desde el WinSCP del cliente.
 
 ![](img/073.png)
 
@@ -276,7 +280,7 @@ Hacemos inicio de sesion en los tres sitios FTP desde el WinSCP del cliente.
 
 ![](img/079.png)
 
-- El usuario1 tambien pertenece al grupo "root" mientras que el usuario2 no pertenece, asi tendran permisos diferentes.
+- El usuario1 tambien pertenece al grupo "root" mientras que el usuario2 no pertenece, así tendrán permisos diferentes.
 
 ![](img/080.png)
 
@@ -337,7 +341,7 @@ Desde el usuario2
 - Enviamos un archivo desde el cliente al /home del usuario.
 
 ![](img/095.png)
-> En este caso me equivoque de archivo porque le puse el nombre de usuario2, pero los demas estan bien.
+> En este caso me equivoqué de archivo porque le puse el nombre de usuario2, pero los demás están bien.
 
 - Descargamos un archivo del servidor al cliente.
 
@@ -359,7 +363,7 @@ Desde el usuario2
 
 #### Investigar y editar el fichero de configuración /etc/proftpd/proftpd.conf buscando información en Internet
 
-- Tenemos que descomentar el parametro "DefaultRoot" , esto significa que el usuario esta limitado a su carpeta personal /home. Tambien podriamos definir muchas cosas como una carpeta "DefaultRoot /carpeta" para usar el ftp de manera mas organizada. Pero en mi caso no.
+- Tenemos que descomentar el parámetro "DefaultRoot" , esto significa que el usuario esta limitado a su carpeta personal /home. También podríamos definir muchas cosas como una carpeta "DefaultRoot /carpeta" para usar el ftp de manera más organizada. Pero en mi caso no.
 
 ![](img/100.png)
 
@@ -385,7 +389,7 @@ Desde el usuario2
 
 ![](img/103.png)
 
-- Hacemos la subida de un archivo, ademas listamos los archivos del directorio /home/usuario1.
+- Hacemos la subida de un archivo, además listamos los archivos del directorio /home/usuario1.
 
 ![](img/104.png)
 
@@ -403,6 +407,6 @@ Desde el usuario2
 
 ![](img/107.png)
 
-- Descargamos un archvo del servidor, ademas listamos los archivos del directorio /home/usuario2.
+- Descargamos un archivo del servidor, además listamos los archivos del directorio /home/usuario2.
 
 ![](img/108.png)
