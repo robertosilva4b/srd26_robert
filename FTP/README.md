@@ -5,10 +5,11 @@ Crear un manual de instalación y configuración de un servidor FTP en una máqu
 ## Instalación y Configuración del Servicio FTP en Windows 2016 Server
 
 - Necesitaremos dos MVs:
+
 | MV  | Hostname  | IP  |
 |---|---|---|
 | MV1 Server | server26s  | 172.19.26.10 |
-| MV2 Cliente  | cliente26  | 172.19.26.11  |
+| MV2 Cliente | cliente26  | 172.19.26.11 |
 
 #### Instalar Servicio FTP en Windows 2016 Server, a través de Agregar roles y características (IIS)
 
@@ -34,7 +35,7 @@ Crear un manual de instalación y configuración de un servidor FTP en una máqu
 
 #### Crear tres nuevos sitios FTP
 
-- **Primer sitio FTP - Asociado a la unidad C:**
+**Primer sitio FTP - Asociado a la unidad C:**
  - No debe prmitir accesos anonimos,
  - Sin uso de SSL
  - Sólo el usuario Administrador podrá acceder al sitio.
@@ -122,7 +123,7 @@ Instala el software WinSCP en el cliente Windows, configura la conexión a tu si
 
 ![](img/034.png)
 
-- **Segundo Sitio FTP - Inetpub**
+**Segundo Sitio FTP - Inetpub**
  - Se permitirá el acceso a todos los usuarios de Active Directory.
  - Modo Lectura y Escritura.
  - No permitimos acceso anónimo.
@@ -184,7 +185,7 @@ Estos son los usuarios de Active Directory
 
 ![](img/053.png)
 
-- **Tercer Sitio FTP - Archivos y Carpetas**
+**Tercer Sitio FTP - Archivos y Carpetas**
 
  - Crear un directorio que contengan carpetas y archivos.
  - Permitiremos acceso anónimo.
