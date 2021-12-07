@@ -329,3 +329,80 @@ Desde el usuario2
 
 ![](img/094.png)
 >Amarillo: archivo que enviamos / Verde: archivo que recibimos
+
+#### Realizar varias copias de archivos hacia / desde el servidor mediante scp, utilizando también los dos usuarios creados anteriormente
+
+*usuario1:*
+
+- Enviamos un archivo desde el cliente al /home del usuario.
+
+![](img/095.png)
+> En este caso me equivoque de archivo porque le puse el nombre de usuario2, pero los demas estan bien.
+
+- Descargamos un archivo del servidor al cliente.
+
+![](img/096.png)
+
+*usuario2:*
+
+- Enviamos un archivo desde el cliente al /home del usuario.
+
+![](img/097.png)
+
+- Descargamos un archivo del servidor al cliente.
+
+![](img/098.png)
+
+#### Instalar el paquete proftpd
+
+![](img/099.png)
+
+#### Investigar y editar el fichero de configuración /etc/proftpd/proftpd.conf buscando información en Internet
+
+- Tenemos que descomentar el parametro "DefaultRoot" , esto significa que el usuario esta limitado a su carpeta personal /home. Tambien podriamos definir muchas cosas como una carpeta "DefaultRoot /carpeta" para usar el ftp de manera mas organizada. Pero en mi caso no.
+
+![](img/100.png)
+
+- Siempre que hagamos un cambio hay que reiniciar el servicio.
+
+![](img/101.png)
+
+#### Tratar de conectar al servicio ftp gestionado por proftpd tanto desde el servidor como desde un cliente.
+
+*Servidor*
+
+![](img/109.png)
+
+*Cliente*
+
+![](img/102.png)
+
+#### Desde la máquina cliente, probar el acceso al ftp mediante los usuarios creados y realizando diferentes operaciones de listado, subida y descarga de archivos.
+
+*usuario1:*
+
+- Creamos un archivo en el servidor para la descarga y otro en el cliente para la subida.
+
+![](img/103.png)
+
+- Hacemos la subida de un archivo, ademas listamos los archivos del directorio /home/usuario1.
+
+![](img/104.png)
+
+- Descargamos un archivo del servidor.
+
+![](img/105.png)
+
+*usuario2:*
+
+- Creamos un archivo en el servidor para la descarga y otro en el cliente para la subida.
+
+![](img/106.png)
+
+- Hacemos la subida de un archivo.
+
+![](img/107.png)
+
+- Descargamos un archvo del servidor, ademas listamos los archivos del directorio /home/usuario2.
+
+![](img/108.png)
