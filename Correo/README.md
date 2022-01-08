@@ -315,9 +315,19 @@ Si intento enviar algo, me da error, como es logico, ya que tuve el problema de 
 
 - Creamos ambas zonas con un host que apunte a la ip del servidor.
 
-![](img/091.png)
+![](img/131.png)
 
-![](img/092.png)
+![](img/134.png)
+
+![](img/132.png)
+
+![](img/133.png)
+
+- Tambien creamos un registro MX que apunte al FQDN (mail.nombredeldominio)
+
+![](img/135.png)
+
+![](img/136.png)
 
 #### Realiza todas las opciones de configuración que consideres necesarias y/o convenientes.
 
@@ -442,14 +452,42 @@ Hacemos esto con las otras dos cuentas y este será el resultado:
 ![](img/127.png)
 >Vemos como el `Usuario1` ha recibido el mensaje que también ha recibido el `Usuario2`.
 
+- Para ver donde llegan todos estos mensajes podemos ir a la ruta que nos indican en cada uno de los perfiles dentro del `Thunderbird`:
+
+![](img/138.png)
+
 #### Crea una lista de distribución empleados asociada al dominio y añade a los dos usuarios de miempresa.com a ella.
 
 ![](img/128.png)
 
-- Agregamos dos usuarios que pertenezcan a miempresa.com
+- Agregamos dos usuarios que pertenezcan a `miempresa.com`
 
 ![](img/129.png)
 
 ![](img/130.png)
 
-Al intentar entrar con la distribución en el Thunderbird, nos reconoce el correo, pero nos pide un password, que en ningún momento definimos en el hMailServer, ya que no tenemos opción para ello.
+Al intentar entrar con la distribución en el Thunderbird, nos reconoce el correo, pero nos pide un password, que en ningún momento definimos en el `hMailServer`, ya que no tenemos opción para ello.
+
+Por esta misma razon, intente otro modo de hacerlo, la verdad no sé cuál de los dos es el correcto, por eso muestro los dos.
+
+*Este lo haremos desde Thunderbird*
+
+Nos vamos a `Direcciones` > `Nueva lista` y crearemos una nueva lista llamada "`empleados`" y metemos los usuarios que conformen uno de los dos dominios.
+
+![](img/139.png)
+
+![](img/140.png)
+> En mi caso usé los usuarios del dominio `srd.edu`
+
+La idea de esto es escribir un mensaje desde un cliente del dominio asir.edu a la distribución, esta enviará el mensaje a los clientes del otro dominio, es decir, a srd.edu.
+
+![](img/141.png)
+> Enviamos desde `Usuario1`.
+
+- Nos ha llegado el mensaje a los dos usuarios de la distribución.
+
+![](img/142.png)
+
+![](img/143.png)
+
+![](img/144.png)
