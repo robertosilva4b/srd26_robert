@@ -14,8 +14,8 @@
 
 ### ÍNDICE
 
-+ [Introducción](#id1)
-+ [Desarrollo](#id4)
+- [Introducción](#id1)
+- [Desarrollo](#id4)
   - [Comprobar que en tu servidor Windows 2012 están instalados y funcionan correctamente: IIS, PHP, MySQL y phpMyAdmin](#id4.1)
   - [Descargar e instalar el servidor de mensajería instantánea OpenFire para Windows.](#id4.2)
   - [Iniciar (Start) el servidor de mensajería Openfire.](#id4.3)
