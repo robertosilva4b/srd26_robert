@@ -4,11 +4,7 @@
 
 </center>
 
-***Nombre:*** Zebensui Lorenzo Esquivel
-
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
-
-***Nombre:*** Robert Oliveros Silva
+***Autores:*** Zebensui y Robert
 
 ***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
