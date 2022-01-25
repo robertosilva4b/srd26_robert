@@ -21,13 +21,13 @@
   - [Iniciar (Start) el servidor de mensajería Openfire.](#id4.3)
   - [Crear una base de datos en blanco en MySqQL a través de phpMyAdmin y recordar nombre de la BD, así como usuario y contraseña con privilegios.](#id4.4)
   - [Ejecutar el script de instalación de Openfire desde un navegador web del servidor, mediante la url http://127.0.0.1:9090.](#id4.5)
-   - [Seguir las instrucciones del documento PDF de Servicio de Mensajería en Windows para seleccionar las distintas opciones de instalación y configuración de Openfire](#id4.5.1)
+    - [Seguir las instrucciones del documento PDF de Servicio de Mensajería en Windows para seleccionar las distintas opciones de instalación y configuración de Openfire](#id4.5.1)
   - [Acceder a la consola de administración de Openfire con el usuario administrador creado.](#id4.6)
   - [Descargar e instalar un cliente de Mensajería.](#id4.7)
   - [Crear dos nuevos usuarios en OpenFire para poder mantener una conversación entre cliente y servidor.](#id4.8)
   - [Mantener conversacion entre ambas máquinas](#id4.9)
-   - [Inicio de sesion con usuarios](#id4.9.1)
-   - [Busqueda e Inicio de conversacion](#id4.9.2)
+    - [Inicio de sesion con usuarios](#id4.9.1)
+    - [Busqueda e Inicio de conversacion](#id4.9.2)
   - [Instalar, probar e informar FastPath WebChat o SparkWeb de OpenFire.](#id4.10)
 
 
