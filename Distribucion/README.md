@@ -22,15 +22,15 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Realizar y subir a la plataforma un informe sobre la práctica a realizar en grupo sobre la instalación, configuración, mantenimiento y prueba de un servicio de gestión de Listas de Distribución basado en el software open source phpList.
+Realizar y subir a la plataforma un informe sobre la práctica a realizar en grupo sobre la instalación, configuración, mantenimiento y prueba de un servicio de gestión de Listas de Distribución basado en el software open source `phpList`.
 
 #### ***Instalación de phpList en un entorno Ubuntu con Apache, php y MySQL***. <a name="id2"></a>
 
-- Primero prepararemos el entorno con el PHP, Apache y MySQL, para comprobar que tenemos los servicios podemos verificar la versión de los mismos.
+- Primero prepararemos el entorno con el `PHP`, `Apache` y`MySQ`L, para comprobar que tenemos los servicios podemos verificar la versión de los mismos.
 
 ![](img/001.png)
 
-- Descargamos el phpList desde la página oficial.
+- Descargamos el `phpList` desde la página oficial.
 
 ![](img/002.png)
 > Copiamos el link .ZIP del archivo
@@ -41,23 +41,23 @@ Realizar y subir a la plataforma un informe sobre la práctica a realizar en gru
 
 ![](img/004.png)
 
-- Movemos todo el directorio 'lists' a la ruta /var/www/html
+- Movemos todo el directorio '`lists`' a la ruta`/var/www/html`
 
 ![](img/005.png)
 
-- Accedemos a MySQL y creamos una BD que llamaremos 'phplist'
+- Accedemos a `MySQ`L y creamos una BD que llamaremos '`phplist`'
 
 ![](img/006.png)
 
-- Creamos un usuario con los permisos a la BD que llamaremos 'prueba'
+- Creamos un usuario con los permisos a la BD que llamaremos '`prueba`'
 
 ![](img/030.png)
 
-- Definimos en el archivo config.php los datos de usuario y BD que hemos creado con anterioridad.
+- Definimos en el archivo `config.php` los datos de usuario y BD que hemos creado con anterioridad.
 
 ![](img/048.png)
 
-- Accederemos al phpList mediante la ruta localhost/lists/admin
+- Accederemos al phpList mediante la ruta `localhost/lists/admin`
 
 ![](img/031.png)
 > En este caso, no hace falta que utilizamos un virtual host con Apache, ya que podemos trabajar localmente, por ello cambiamos el directorio 'lists' de lugar.
@@ -68,7 +68,7 @@ Realizar y subir a la plataforma un informe sobre la práctica a realizar en gru
 
 ![](img/033.png)
 
-- Iniciamos con el usuario admin
+- Iniciamos con el usuario `admin`
 
 ![](img/034.png)
 
@@ -84,7 +84,7 @@ Dentro de phpList hay muchísimas opciones de configuración y mantenimiento del
 
 **System**
 
-- Tener el servicio adaptado a nuestro idioma, esto lo podemos modificar en el archivo config.php escribiendo esta línea:
+- Tener el servicio adaptado a nuestro idioma, esto lo podemos modificar en el archivo `config.php` escribiendo esta línea:
 
 ```
 $default_system_language="es";
@@ -158,7 +158,7 @@ Dentro de una empresa puede servir para gestionar correos segmentados por depart
 
 ![](img/050.png)
 
-- Para añadir suscriptores tenemos que importarlos (Opción: Importar correos electrónicos):
+- Para añadir suscriptores tenemos que importarlos (`Opción: Importar correos electrónicos`):
 
 ![](img/011.png)
 > Marcamos que esta importación se hará en la nueva lista creada.
@@ -185,13 +185,13 @@ Dentro de una empresa puede servir para gestionar correos segmentados por depart
 - También podemos agregar atributos de suscriptores que tendrán que rellenar, por si queremos clasificarlos o conocer algo más sobre ellos, por norma general las empresas suelen pedir tanto correo como nombre, en este caso el nombre sería un atributo.
 
 ![](img/041.png)
-> Creamos los atributos de Nombre y Edad
+> Creamos los atributos de `Nombre` y `Edad`
 
 #### ***Página de Suscripción***. <a name="id7"></a>
 
 Crearemos una página de suscripción a nuestro newsletter, aunque solo podremos ver la vista de un administrador y no de un usuario real que entra a la página, ya que estamos trabajando en modo local.
 
-Para crear la página nos iremos a Config > Páginas de suscripción
+Para crear la página nos iremos a `Config` > `Páginas de suscripción`
 
 ![](img/036.png)
 >Podremos editar tanto introducción, Cabecera, Pie de página...
