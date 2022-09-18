@@ -26,7 +26,7 @@ Siguiendo los pasos detallados en las guías y tutoriales proporcionados, instal
 configurar un servidor y un cliente para establecer comunicaciones de voz mediante el
 servicio `VoIP` (Voice Over Internet Protocol) sobre sistemas Windows.
 
-Plantearemos una práctica sobre VoIP en Windows utilizand `3CX Phone System`, una distribución GNU/Linux especializada basada en Debian, creada por 3CX, diseñada para correr una plataforma completa de comunicaciones unificada, basada en el software de PBX.
+Plantearemos una práctica sobre VoIP en Windows utilizaremoslizand `3CX Phone System`, una distribución GNU/Linux especializada basada en Debian, creada por 3CX, diseñada para correr una plataforma completa de comunicaciones unificada, basada en el software de PBX.
 
 #### ***3CX Phone System***. <a name="id2"></a>
 
